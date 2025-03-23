@@ -1,0 +1,168 @@
+  /*Product & About*/
+  .hero {
+            background: url('https://source.unsplash.com/1600x900/?luxury-watch') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            margin-top: 56px; /* To avoid overlap with fixed navbar */
+        }
+    .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+    .hero p {
+            font-size: 1.4rem;
+        }
+    .hero {
+        background-image: url('img/bg.jpg');
+        }
+
+    .btn {
+    background-color: #100002;
+    color: white;
+        }
+
+    .btn:hover{
+        background-color: #7b6a6a;
+        color: white;
+    }
+
+    .content {
+        padding: 50px 20px;
+    }
+    .content h2 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .hero {
+    background-image: url('img/bg.jpg');
+    }
+    h2 {text-align: left;}
+
+/*ABOUT*/
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f7f7f7;
+    }
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+    .hero {
+        background: url('https://source.unsplash.com/1600x900/?luxury-watch') center/cover no-repeat;
+        color: white;
+        text-align: center;
+        padding: 120px 20px;
+        margin-top: 56px;
+    }
+    .hero h1 {
+        font-family: 'Tangerine', cursive;
+        font-weight: bold; 
+        text-align: center;
+        color: rgb(35, 236, 233);
+        text-shadow: 0 0 8px rgb(130, 246, 244),
+        0 0 8px #f0f0f0, 0 0 12px #f0f0f0, 0 0 16px #f0f0f0;
+        font-size: 150px;
+    }
+    .hero p {
+        font-size: 1.4rem;
+    }
+    .content {
+        padding: 50px 20px;
+    }
+    .content h2 {
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .hero {
+    background-image: url('img/bg2.png');
+    }
+
+    .developer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 50px;
+    padding: 50px 20px;
+    gap: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    }
+
+    .developer img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .developer div {
+    max-width: 600px;
+    margin-left: 100px;
+    }
+
+    .developer h4 {
+    margin-bottom: 5px;
+    }
+
+    .developer p {
+    margin: 0;
+    color: #333;
+    }
+
+    /*Index*/
+    .carousel h1 {
+        font-family: 'Tangerine', cursive;
+        font-weight: bold; 
+        text-align: center;
+        color: rgb(35, 236, 233);
+        text-shadow: 0 0 8px rgb(130, 246, 244),
+        0 0 8px #f0f0f0, 0 0 12px #f0f0f0, 0 0 16px #f0f0f0;
+        font-size: 150px;
+    }
+    .carousel h3 {
+        margin-bottom: 10px;
+        text-align: center;
+        color: white;
+        font-style: Verdana;
+    }
+    .btn-more {
+        color: #100002;
+        font-style:initial;
+    }
+    .btn-more:hover {
+        color: rgb(67, 64, 64);
+    }
+    .quote{
+        margin-top: 25px;
+        color: rgb(18, 106, 106);
+    }
+    /*Nabvar font-style*/
+    .navbar-brand {
+        font-family: 'Tangerine', cursive;
+        font-size: 2rem;
+    }
+
+    /*CONTACT*/
+    .container-contact h2 {
+        margin-top: 100px;
+        color:black;
+    }
+
+    /*Footer*/
+    .social-icons a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        color: #000000;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+    .social-icons a:hover {
+        background-color: #b5b8bc;
+        transform: scale(1.1);
+    }
+
