@@ -142,14 +142,22 @@
         font-family: 'Tangerine', cursive;
         font-size: 2rem;
     }
-
-  /*For mobile*/
-    @media (max-width: 768px) {
+ /*For mobile*/
+   @media (max-width: 768px) {
         .carousel-caption h1 {
-            font-size: 1.8rem;
+            font-size: 3rem;
         }
         .carousel-caption h3 {
-            font-size: 0.5rem;
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero h3 {
+            font-size: 1rem;
         }
     }
 
