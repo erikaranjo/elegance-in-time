@@ -150,10 +150,7 @@
         .carousel-caption h3 {
             font-size: 1rem;
         }
-    }
-
-    @media (max-width: 768px) {
-        .hero h1 {
+      .hero h1 {
             font-size: 3rem;
         }
         .hero h3 {
